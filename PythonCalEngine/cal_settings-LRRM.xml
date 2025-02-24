@@ -1,0 +1,16 @@
+<cal_settings method="sk_lrrm">
+  <settings>
+    <method name="sk_lrrm">
+      <match_fit>lc</match_fit>
+      <match_port>1</match_port>
+    </method>
+  </settings>
+  <snp name="measured">
+  </snp>
+  <snp name="model">
+  </snp>
+  <snp name="error_term">
+  </snp>
+  <snp name="output_parameter">
+  </snp>
+</cal_settings>
