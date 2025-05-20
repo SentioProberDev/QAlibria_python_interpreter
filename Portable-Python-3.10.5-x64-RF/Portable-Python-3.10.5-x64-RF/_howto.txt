@@ -1,0 +1,5 @@
+PyScripter-Installing python packages
+	-https://pyscripter.blogspot.com/2017/10/installing-python-packages-easy-way-and.html
+Run Script
+	-Go to Python.exe: C:\Windows>cd C:\PortablePython\App\Python
+	-Run Python Script by Python.exw: C:\PortablePython\App\Python>python "C:\ProgramData\MPI Corporation\QAlibria\PythonCalEngine\cal_main.py"
