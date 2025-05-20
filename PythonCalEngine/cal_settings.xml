@@ -1,7 +1,7 @@
 <cal_settings method="sk_lrrm">
   <settings>
     <method name="sk_lrrm">
-      <match_fit>none</match_fit>
+      <match_fit>l</match_fit>
       <match_port>Forward</match_port>
     </method>
   </settings>

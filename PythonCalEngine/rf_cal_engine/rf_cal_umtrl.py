@@ -114,7 +114,6 @@ class rf_cal_umtrl(rf_cal_base):
                             reflect_est=reflect_est, reflect_offset=reflect_offset, 
                             ereff_est=ereff_est, switch_term=switch_term)
         self.__cal.run_mTRL()
-        
         # shift plane
         ref_plane = float(settings['ref_plane'])
         self.__cal.shift_plane(ref_plane)
@@ -124,6 +123,19 @@ class rf_cal_umtrl(rf_cal_base):
         """
         Save error term to S1P file
         """
+        
+        # get file directory
+        file_dir = os.path.dirname(files[EErrorTerms12.FwdEd])
+        # Save gamma
+        file = rf'{file_dir}\gamma.s1p'
+        gamma = self.__cal.gamma
+        ntw_ets: network =network(s=gamma,frequency=self.__cal.f)
+        ntw_ets.write_touchstone(file)
+        # Save ereff
+        file = rf'{file_dir}\ereff.s1p'
+        ereff = self.__cal.ereff
+        ntw_ets: network =network(s=ereff,frequency=self.__cal.f)
+        ntw_ets.write_touchstone(file)
         """
         # forward direction
         self.coefs['EDF'] = EDF
