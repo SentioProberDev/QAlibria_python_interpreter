@@ -1,0 +1,42 @@
+<cal_settings method="sk_lrrm">
+  <settings>
+    <method name="sk_lrrm">
+      <match_fit>l</match_fit>
+      <match_port>Forward</match_port>
+    </method>
+  </settings>
+  <snp name="measured">
+    <thru>C:\ProgramData\MPI Corporation\QAlibria\PythonCalEngine\_input\measured\thru.s2p</thru>
+    <gthru>C:\ProgramData\MPI Corporation\QAlibria\PythonCalEngine\_input\measured\gthru.s2p</gthru>
+    <load>C:\ProgramData\MPI Corporation\QAlibria\PythonCalEngine\_input\measured\load.s2p</load>
+    <short>C:\ProgramData\MPI Corporation\QAlibria\PythonCalEngine\_input\measured\short.s2p</short>
+    <open>C:\ProgramData\MPI Corporation\QAlibria\PythonCalEngine\_input\measured\open.s2p</open>
+  </snp>
+  <snp name="model">
+    <thru>C:\ProgramData\MPI Corporation\QAlibria\PythonCalEngine\_input\model\thru.s2p</thru>
+    <load>C:\ProgramData\MPI Corporation\QAlibria\PythonCalEngine\_input\model\load.s2p</load>
+    <short>C:\ProgramData\MPI Corporation\QAlibria\PythonCalEngine\_input\model\short.s2p</short>
+    <open>C:\ProgramData\MPI Corporation\QAlibria\PythonCalEngine\_input\model\open.s2p</open>
+  </snp>
+  <snp name="error_term">
+    <fwd_ed>C:\ProgramData\MPI Corporation\QAlibria\PythonCalEngine\_output\fwd_ed.s1p</fwd_ed>
+    <fwd_es>C:\ProgramData\MPI Corporation\QAlibria\PythonCalEngine\_output\fwd_es.s1p</fwd_es>
+    <fwd_ert>C:\ProgramData\MPI Corporation\QAlibria\PythonCalEngine\_output\fwd_ert.s1p</fwd_ert>
+    <rev_ed>C:\ProgramData\MPI Corporation\QAlibria\PythonCalEngine\_output\rev_ed.s1p</rev_ed>
+    <rev_es>C:\ProgramData\MPI Corporation\QAlibria\PythonCalEngine\_output\rev_es.s1p</rev_es>
+    <rev_ert>C:\ProgramData\MPI Corporation\QAlibria\PythonCalEngine\_output\rev_ert.s1p</rev_ert>
+    <fwd_ex>C:\ProgramData\MPI Corporation\QAlibria\PythonCalEngine\_output\fwd_ex.s1p</fwd_ex>
+    <fwd_el>C:\ProgramData\MPI Corporation\QAlibria\PythonCalEngine\_output\fwd_el.s1p</fwd_el>
+    <fwd_ett>C:\ProgramData\MPI Corporation\QAlibria\PythonCalEngine\_output\fwd_ett.s1p</fwd_ett>
+    <rev_ex>C:\ProgramData\MPI Corporation\QAlibria\PythonCalEngine\_output\rev_ex.s1p</rev_ex>
+    <rev_el>C:\ProgramData\MPI Corporation\QAlibria\PythonCalEngine\_output\rev_el.s1p</rev_el>
+    <rev_ett>C:\ProgramData\MPI Corporation\QAlibria\PythonCalEngine\_output\rev_ett.s1p</rev_ett>
+  </snp>
+  <snp name="output_parameter">
+    <solved_l>C:\ProgramData\MPI Corporation\QAlibria\PythonCalEngine\_output\solved_l.s1p</solved_l>
+    <solved_c>C:\ProgramData\MPI Corporation\QAlibria\PythonCalEngine\_output\solved_c.s1p</solved_c>
+    <solved_m>C:\ProgramData\MPI Corporation\QAlibria\PythonCalEngine\_output\solved_m.s1p</solved_m>
+    <solved_r1>C:\ProgramData\MPI Corporation\QAlibria\PythonCalEngine\_output\solved_r1.s1p</solved_r1>
+    <solved_r2>C:\ProgramData\MPI Corporation\QAlibria\PythonCalEngine\_output\solved_r2.s1p</solved_r2>
+  </snp>
+</cal_settings>
